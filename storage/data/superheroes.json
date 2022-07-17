@@ -1,0 +1,136 @@
+{
+    "superheroes": [
+        {
+            "name": "Ant-Man"
+        },
+        {
+            "name": "Aquaman"
+        },
+        {
+            "name": "Asterix"
+        },
+        {
+            "name": "The Atom"
+        },
+        {
+            "name": "The Avengers"
+        },
+        {
+            "name": "Batgirl"
+        },
+        {
+            "name": "Batman"
+        },
+        {
+            "name": "Batwoman"
+        },
+        {
+            "name": "Black Canary"
+        },
+        {
+            "name": "Black Panther"
+        },
+        {
+            "name": "Captain America"
+        },
+        {
+            "name": "Captain Marvel"
+        },
+        {
+            "name": "Catwoman"
+        },
+        {
+            "name": "Conan the Barbarian"
+        },
+        {
+            "name": "Daredevil"
+        },
+        {
+            "name": "The Defenders"
+        },
+        {
+            "name": "Doc Savage"
+        },
+        {
+            "name": "Doctor Strange"
+        },
+        {
+            "name": "Elektra"
+        },
+        {
+            "name": "Fantastic Four"
+        },
+        {
+            "name": "Ghost Rider"
+        },
+        {
+            "name": "Green Arrow"
+        },
+        {
+            "name": "Green Lantern"
+        },
+        {
+            "name": "Guardians of the Galaxy"
+        },
+        {
+            "name": "Hawkeye"
+        },
+        {
+            "name": "Hellboy"
+        },
+        {
+            "name": "Incredible Hulk"
+        },
+        {
+            "name": "Iron Fist"
+        },
+        {
+            "name": "Iron Man"
+        },
+        {
+            "name": "Marvelman"
+        },
+        {
+            "name": "Robin"
+        },
+        {
+            "name": "The Rocketeer"
+        },
+        {
+            "name": "The Shadow"
+        },
+        {
+            "name": "Spider-Man"
+        },
+        {
+            "name": "Sub-Mariner"
+        },
+        {
+            "name": "Supergirl"
+        },
+        {
+            "name": "Superman"
+        },
+        {
+            "name": "Teenage Mutant Ninja Turtles"
+        },
+        {
+            "name": "Thor"
+        },
+        {
+            "name": "The Wasp"
+        },
+        {
+            "name": "Watchmen"
+        },
+        {
+            "name": "Wolverine"
+        },
+        {
+            "name": "Wonder Woman"
+        },
+        {
+            "name": "X-Men"
+        }
+    ]
+}
