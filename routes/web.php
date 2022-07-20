@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\HangoutsController;
+use App\Http\Controllers\HangmanController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,5 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get(
     '/',
-    [HangoutsController::class, 'index']
+    [HangmanController::class, 'index']
+);
+
+Route::post(
+    '/',
+    [HangmanController::class, 'options']
 );
