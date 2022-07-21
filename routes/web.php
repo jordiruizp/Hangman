@@ -23,3 +23,8 @@ Route::post(
     '/',
     [HangmanController::class, 'options']
 );
+
+Route::post(
+    '/user-input',
+    [HangmanController::class, 'userInput']
+);
