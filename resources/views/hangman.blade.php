@@ -30,3 +30,11 @@
         @endforeach
     </div>
 @endsection
+
+@section('scripts-footer')
+    <script>
+        window.onload = function() {
+            document.getElementById("letter").focus();
+        }
+    </script>
+@endsection

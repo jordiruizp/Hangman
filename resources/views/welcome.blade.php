@@ -34,3 +34,19 @@
         </div>
     </div>
 @endsection
+
+@section('scripts-footer')
+    @if (empty($players))
+        <script>
+            window.onload = function() {
+                document.getElementById("num_players").focus();
+            }
+        </script>
+    @else
+        <script>
+            window.onload = function() {
+                document.getElementById("player_0").focus();
+            }
+        </script>
+    @endif
+@endsection
