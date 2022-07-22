@@ -7,7 +7,8 @@
         <title>Hangouts</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="{{asset('css/app.css')}}" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -15,17 +16,18 @@
         </style>
 
         <style>
-            body {
-                font-family: 'Nunito', sans-serif;
+            body * {
+                font-family: 'Anton', sans-serif;
+                letter-spacing: 3px;
             }
         </style>
         @yield('scripts-header')
     </head>
     <body class="antialiased">
-        <header class="relative flex items-top justify-start py-4 px-6">
+        <header class="relative flex items-top">
             @yield('header')
         </header>
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+        <div class="relative flex items-top justify-center min-h-screen sm:items-center py-4 sm:pt-0">
             @yield('body')
         </div>
 
