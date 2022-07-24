@@ -23,6 +23,9 @@ class Superhero
         return $superheroesData['superheroes'];
     }
 
+    /**
+     * Get a random superhero from a JSON File
+     */
     public static function get()
     {
         $superheroes = self::parseJson();

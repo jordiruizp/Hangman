@@ -7,6 +7,11 @@ use Illuminate\Support\Facades\Cache;
 
 class Hangman
 {
+    /**
+     * Get an array of characters from a string
+     *
+     * @param string String with the superhero name to split into characters
+     */
     public static function getSuperheroLetters($superheroName)
     {
         $nameLetters = str_split(Str::upper($superheroName));
@@ -14,6 +19,11 @@ class Hangman
         return $nameLetters;
     }
 
+    /**
+     * Get number of valid characters
+     *
+     * @param array Array of letters
+     */
     public static function getSuperheroLength($superheroLetters)
     {
         $valigNameLength = 0;
@@ -26,6 +36,9 @@ class Hangman
         return $valigNameLength;
     }
 
+    /**
+     * Get word with guessed letters
+     */
     public static function getWordToPrint()
     {
         $superheroLetters = Cache::get('SuperheroLetters');
@@ -43,6 +56,11 @@ class Hangman
         return implode($wordToPrint);
     }
 
+    /**
+     * Check letter entered by user
+     *
+     * @param char input letter by user
+     */
     public static function checkUserLetter($letter)
     {
         $superheroLetters = Cache::get('SuperheroLetters');
